@@ -26,7 +26,7 @@ var promise_google = load('js_resource_loader')
 
 # Usage
 ```js
-load_resources(path, extraction_list)
+load_resources(path, extraction_list, frame_src)
 ```
 
 ### Path
@@ -36,3 +36,6 @@ Path is the url you would use in your browser to reach the resource manually. I.
 Extraction list is an array of key_strings which should be extracted from the environment the script is loaded into.
 
 Note: if you only have one key you would like extracted, you can just pass the key string instead of an array.
+
+### Frame Src (optional)
+If frame src is defined, then the iframe is loaded with the SRC as the contents. This may be useful when you need to load a script from a particular domain. (e.g., google looks for specific domains in which it authorizes the usage of certain api keys)

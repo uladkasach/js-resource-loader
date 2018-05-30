@@ -1,0 +1,32 @@
+{
+  "name": "js-resource-loader",
+  "version": "1.1.0",
+  "description": "Load clientside resources without CORS constraints and without polluting global scope.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uladkasach/js-resource-loader.git"
+  },
+  "keywords": [
+    "clientside",
+    "front",
+    "end",
+    "frontend",
+    "resource",
+    "load",
+    "js",
+    "import",
+    "cors",
+    "cross",
+    "origin"
+  ],
+  "author": "uladkasach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uladkasach/js-resource-loader/issues"
+  },
+  "homepage": "https://github.com/uladkasach/js-resource-loader#readme"
+}
